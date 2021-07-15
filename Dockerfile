@@ -28,4 +28,6 @@ WORKDIR /opt/app-root
 
 EXPOSE 3000
 
+RUN npm test:e2e
+
 CMD ["npm", "run", "start"]
